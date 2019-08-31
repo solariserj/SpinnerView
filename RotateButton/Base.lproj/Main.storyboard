@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RotateButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8W-EQ-XjY">
+                                <rect key="frame" x="104.5" y="617" width="166" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="hVt-Zb-OMf"/>
+                                    <constraint firstAttribute="height" constant="30" id="o53-Gz-KDK"/>
+                                </constraints>
+                                <state key="normal" title="Start Rotate"/>
+                                <connections>
+                                    <action selector="rotateAct" destination="BYZ-38-t0r" eventType="touchUpInside" id="I8O-FQ-Hj8"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLQ-dk-igt" customClass="RotateView" customModule="RotateButton" customModuleProvider="target">
+                                <rect key="frame" x="162.5" y="120" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EYi-fk-H3I"/>
+                                    <constraint firstAttribute="width" constant="50" id="M9Z-hK-cG8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uLQ-dk-igt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="4Fe-aY-Ccn"/>
+                            <constraint firstItem="uLQ-dk-igt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hcx-Qi-oGq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d8W-EQ-XjY" secondAttribute="bottom" constant="20" id="TJI-Lj-q6f"/>
+                            <constraint firstItem="d8W-EQ-XjY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hDa-YQ-lv8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="actionBtn" destination="d8W-EQ-XjY" id="nqu-4f-hWG"/>
+                        <outlet property="rotateView" destination="uLQ-dk-igt" id="59a-ea-AHx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
