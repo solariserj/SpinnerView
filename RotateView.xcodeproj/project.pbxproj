@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6AD807D923055F99006C4E91 /* RotateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD807D923055F99006C4E91 /* RotateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD807DC23055F99006C4E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD807DE23055F99006C4E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AD807E123055F99006C4E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		6AD807D023055F99006C4E91 = {
 			isa = PBXGroup;
 			children = (
-				6AD807DB23055F99006C4E91 /* RotateButton */,
+				6AD807DB23055F99006C4E91 /* Rotate */,
 				6AD807DA23055F99006C4E91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		6AD807DA23055F99006C4E91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AD807D923055F99006C4E91 /* RotateButton.app */,
+				6AD807D923055F99006C4E91 /* RotateView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6AD807DB23055F99006C4E91 /* RotateButton */ = {
+		6AD807DB23055F99006C4E91 /* Rotate */ = {
 			isa = PBXGroup;
 			children = (
 				6AD807DC23055F99006C4E91 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				6AD807E523055F9B006C4E91 /* LaunchScreen.storyboard */,
 				6AD807E823055F9B006C4E91 /* Info.plist */,
 			);
-			path = RotateButton;
+			path = Rotate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6AD807D823055F99006C4E91 /* RotateButton */ = {
+		6AD807D823055F99006C4E91 /* RotateView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AD807EB23055F9B006C4E91 /* Build configuration list for PBXNativeTarget "RotateButton" */;
+			buildConfigurationList = 6AD807EB23055F9B006C4E91 /* Build configuration list for PBXNativeTarget "RotateView" */;
 			buildPhases = (
 				6AD807D523055F99006C4E91 /* Sources */,
 				6AD807D623055F99006C4E91 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = RotateButton;
+			name = RotateView;
 			productName = RotateButton;
-			productReference = 6AD807D923055F99006C4E91 /* RotateButton.app */;
+			productReference = 6AD807D923055F99006C4E91 /* RotateView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6AD807D423055F99006C4E91 /* Build configuration list for PBXProject "RotateButton" */;
+			buildConfigurationList = 6AD807D423055F99006C4E91 /* Build configuration list for PBXProject "RotateView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6AD807D823055F99006C4E91 /* RotateButton */,
+				6AD807D823055F99006C4E91 /* RotateView */,
 			);
 		};
 /* End PBXProject section */
@@ -289,13 +289,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLL6E8QD4H;
-				INFOPLIST_FILE = RotateButton/Info.plist;
+				INFOPLIST_FILE = Rotate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.novaapps.RotateButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.novaapps.RotateView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -310,13 +310,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLL6E8QD4H;
-				INFOPLIST_FILE = RotateButton/Info.plist;
+				INFOPLIST_FILE = Rotate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.novaapps.RotateButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.novaapps.RotateView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AD807D423055F99006C4E91 /* Build configuration list for PBXProject "RotateButton" */ = {
+		6AD807D423055F99006C4E91 /* Build configuration list for PBXProject "RotateView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AD807E923055F9B006C4E91 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AD807EB23055F9B006C4E91 /* Build configuration list for PBXNativeTarget "RotateButton" */ = {
+		6AD807EB23055F9B006C4E91 /* Build configuration list for PBXNativeTarget "RotateView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AD807EC23055F9B006C4E91 /* Debug */,
